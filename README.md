@@ -11,7 +11,7 @@ This image ensures that the default database created by the parent `postgres` im
 * `fuzzystrmatch`
 * `postgis_tiger_geocoder`
 
-Default database with with above extions is `template_postgis`, if you want to add custom database name then you have to pass ARG `-e POSTGRES_DB` while running container. 
+Default database with with above extensions is `template_postgis`, if you want to add custom database name then you have to pass ARG `-e POSTGRES_DB` while running container. 
 
 ## Environment Variables
 
